@@ -13,7 +13,7 @@
 	
 	<link rel="icon" href="../img/favicon.ico">
 
-    <title>@yield('title')/Pensiero Relax - Il centro massaggi anche a casa tua</title>
+    <title>Gym-University</title>
     
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
@@ -56,105 +56,19 @@
 				
 				
 
-    <div class="brand">Pensiero Relax</div>
-    <div class="address-bar">Il centro massaggi,
-    <br>anche a casa tua! </div>
+    <div class="brand">Gym-University</div>
+    <div id="title" class="address-bar">La palestra per gli universitari,
+    <br> e anche i non! </div>
 
-    <!-- Navigation -->
-    <nav id="menu" class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Pensiero Relax</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="/">Home</a>
-                    </li>
-					<li>
-                        <a href="/servizi">Servizi</a>
-                    </li>
-                   
-                    <li>
-                        <a href="/shiatsu">Shiatsu</a>
-                    </li>
-                    <li>
-                        <a href="/reiki">Reiki</a>
-                    </li>
-                    <li>
-                        <a href="/rilassante">Rilassante</a>
-                    </li>
-                    
-                    
-                    <li>
-                        <a href="/contatti">Contatti</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    
 	
 
 @yield('content')
 
 		
-	    <div class="container">
-
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12 text-center">
-                
-                <div class="social">
-                		
-                	<ul class="social-network social-circle">
-                        
-                        <li>
-	                        <a class="fb-share-button" 
-	                        href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.pensierorelax.tk"
-	                         data-layout="button">
-	                        <i class="fa fa-facebook"></i>
-	                        </a>
-                        </li>
-                        
-                        <li>
-	                        <a href="https://twitter.com/home?status=http%3A//www.pensierorelax.tk"
-	                         class="icoTwitter" 
-	                         title="Twitter">
-	                        <i class="fa fa-twitter"></i>
-	                        </a>
-                        </li>
-                        
-                        <li>
-	                        <a href="https://plus.google.com/share?url=http%3A//www.pensierorelax.tk" 
-	                        class="icoGoogle" 
-	                        title="Google +">
-	                        <i class="fa fa-google-plus"></i>
-	                        </a>
-                        </li>
-                        
-                    </ul>
-                		 		
-                </div>
-                
-                </div>
-            </div>
-        </div>
-        
-        </div>
-
+	    
 		<div class="col-lg-12 text-center">
-			<a href="#menu" class="btn btn-primary btn-lg btn-block">Torna al Menù</a>
+			<a href="#title" class="btn btn-primary btn-lg btn-block">Torna al sù</a>
 		</div>
 
 		<br>

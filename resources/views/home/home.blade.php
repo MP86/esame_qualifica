@@ -1,15 +1,6 @@
 @extends('master')
 
 
-@section('seo')
-	<meta name="description" content="Massaggi Shiatsu e rilassanti anche a casa tua. I motivi di questo sito.">
-    <meta name="author" content="Pensiero Relax - MP86">
-@stop
-
-@section('title')
-Home
-@stop
-
 @section('content')
 
 	<div class="container">
@@ -24,18 +15,26 @@ Home
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
                         </ol>
 
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img class="img-responsive img-full" src="../img/slide1.jpg" alt="massaggio rilassante">
+                                <img class="img-responsive img-full" src="../img/slide1.jpg" title="torneo/sfide volley università" alt="torneo/sfide volley università">
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="../img/slide2.jpg" alt="massaggio shiatsu">
+                                <img class="img-responsive img-full" src="../img/slide2.jpg" title="torneo/sfide basket università" alt="torneo/sfide basket università">
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="../img/slide3.jpg" alt="sala massaggio">
+                                <img class="img-responsive img-full" src="../img/slide3.jpg" title="torneo/sfide calcetto università" alt="torneo/sfide calcetto università">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="../img/slide4.jpg" title="sala pesi" alt="sala pesi">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="../img/slide5.jpg" title="sala corsi" alt="sala corsi">
                             </div>
                         </div>
 
@@ -52,13 +51,14 @@ Home
 						<br> <small> o </small> <br>
 						<small>Benvenuti in</small>
                     </h2>
-                    <h1 class="brand-name">Brocccolo Bill</h1>
+                    <h1 class="brand-name">Gym-University</h1>
                     <hr class="tagline-divider">
                     <h2>
                         <small>By
                             <strong>Matteo Pretolani</strong>
                         </small>
                     </h2>
+                    <hr class="tagline-divider">
                 </div>
             </div>
         </div>
@@ -67,16 +67,32 @@ Home
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Per tutta la
-                        <strong>Famiglia!</strong>
+                    <h2 class="intro-text text-center">
+                    Sconto per 
+                        <strong>Universitari!</strong>
                     </h2>
                     <hr>
                     
                     <hr class="visible-xs">
-                    <p>- menù per bambini</p>
-                    <p>- spazio giochi</p>
-                    <p>- animazione</p>
-                </div>
+                    <p>
+                    Per te che sei studente sconto xx%, con possibili iscrizioni a tornei/sfide tra università. <br>
+                    </p>
+                    
+                    <hr class="tagline-divider">
+                    
+                    <div class="intro-text text-center">
+                    
+                    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                    <div id="fb-root"></div>
+							<script>(function(d, s, id) {
+							  var js, fjs = d.getElementsByTagName(s)[0];
+							  if (d.getElementById(id)) return;
+							  js = d.createElement(s); js.id = id;
+							  js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.5";
+							  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));</script>
+			        </div>
+			     </div>
             </div>
         </div>
 
@@ -85,7 +101,7 @@ Home
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Contatto
-                        <strong>massaggio rilassante</strong>
+                        <strong>dove siamo!</strong>
                     </h2>
                     <hr>
                 </div>
